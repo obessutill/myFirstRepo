@@ -85,6 +85,21 @@ body {
     overflow-y: hidden;
     scrollbar-width: none;   
 }
+.main__nav {
+    position: relative;
+}
+
+.nav__list::after {
+    content: url("./images/fade.svg");
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 40px;
+    width: 19px;
+    /* background-color: red; */
+
+}
 .nav__list::-webkit-scrollbar {
   width: 0 !important;
   height: 0;
