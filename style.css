@@ -448,6 +448,11 @@ body {
   
 }
 
+@media (min-width: 1155px) {
+    .nav__list {
+        height: 44px;
+    }
+}
 
 
 
